@@ -28,7 +28,7 @@
             <!-- nappi 2 sivulle ja pientä tietoa -->
             <div class="col-md-8">
                 <h1 >Hei! Olen Hugo Korhonen</h1>
-                <p class="lead">Opiskelen savon-ammattiopistossa tieto- ja viestintä tekniikan perustutkintoa ja intohimoni ovat autot/ajoneuvot. Minulla on kokemusta ajoneuvojen laitosta ja tietokoneista, tykkään oppia uusia asioita ja olen nopea oppimaan.</p>
+                <p class="lead">Opiskelen Savon ammattiopistossa tieto- ja viestintätekniikan perustutkintoa ja intohimoni ovat autot/ajoneuvot. Minulla on kokemusta ajoneuvojen laitosta ja tietokoneista. Tykkään oppia uusia asioita ja olen nopea oppimaan.</p>
                 <a href="nettisivu2.php" class="btn btn-primary btn-lg mt-3">Tästä toiselle sivulle</a>
             </div>
         </div>
