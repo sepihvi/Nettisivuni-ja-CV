@@ -24,29 +24,23 @@
     <section class="container my-5">
         <div class="text-center">
             <h1>Lisätietoa minusta</h1>
-            <p class="lead">Tervetuloa oppimaan lisää minusta! Olen Hugo, ja Olen kiinnostunut autoista/ajoneuvoista ja ruoan laitosta ja syömisestä. Opiskelen siis savon-ammattiopistossa tieto- ja viestintätekniikan perustutkintoa ohjelmisto kehittäjäksi jo toisella vuodella. Aikaisemmat koukutukseni ovat peruskoulu.</p>
+            <p class="lead">Tervetuloa oppimaan lisää minusta! Olen Hugo ja olen pienestä pitäen ollut kiinnostunut autoista/ajoneuvoista. Odotan kovasti saavani ajokortin ja oman auton. Haluaisin Mercedes Benz merkkisen auton, joka on korimalliltaan w201 ja malli on 190e. Opiskelen viimeistä vuotta Savon ammattiopistossa tieto- ja viestintätekniikan perustutkintoa ohjelmistokehittäjäksi. Kivointa opinnoissa on ollut peliohjelmointi Unitylla. Koodaan sitä c# ohjelmointikielellä. Lisäksi olen opiskellut www-sivujen tekemistä php, css ja html ohjelmointikielillä. Tänä syksynä opiskelimme sql ja tietokantarakenteita.</p>
         </div>
 
         <div class="row mt-4">
             <div class="col-md-6">
-                <h3>Kokemus</h3>
-                <p>Minun kokemukseni on aika pieni, mutta olen ollut kaupassa töissä ja siivoamassa koulua ja olen itse ohjelmoinnissa tehnyt perustehtäviä </p>
+                <h3>Työkokemus</h3>
+                <p>Minun työkokemukseni on aika pieni, mutta olen ollut kaupassa töissä sekä siivoamassa koulua yläkoulun aikaan tet-jaksolla. </p>
             </div>
             <div class="col-md-6">
                 <h3>Harrastukset</h3>
-                <p>Vapaa-ajallani nautin Viettää aikaa kavereiden kanssa ja perheen kanssa, Tykkään pelata tietokoneella videopelejä, Tykkään myös laittaa ajoneuvoja ja tykkään syödä sekä käydä salilla.</p>
+                <p>Vapaa-ajallani nautin viettää aikaa kavereiden ja perheen kanssa. Tykkään pelata tietokoneella videopelejä.</p>
             </div>
             <div class="col-md-6" stylesheet="aling">
                 <h3>Vahvuudet</h3>
-                <p>Minä olen avualias, ystävllinen, nopea oppimaan, luova, oma aloitteinen. negatiivinen ominaisuus minulla on, että saatan olla monesti perfektionisti, mutta se voi olla myös hyväkin ominaisuus, Olen myös järjestelmällinen. </p>
+                <p>Minä olen avualias, ystävällinen, nopea oppimaan, luova ja oma-aloitteinen. Negatiivinen ominaisuus minulla on, että saatan olla monesti perfektionisti, mutta se voi olla myös hyväkin ominaisuus. Olen myös järjestelmällinen. </p>
             </div>
-            <div class="col-md-6" stylesheet="aling">
-                <h3>Ohjelmointi taidot</h3>
-                <p>minulla on pientä osaamis taitoa ohjelmointtiin eli en vielä ammattilainen, mutta opettelen vielä. Jos mietin työharjoittelua omalla alallani niin olisin kiinnostunut kuvien muokkaamisesta</p>
-                <p>-osaan c#</p>
-                <p>-osaan html ja php ja css</p>
-            </div>
-        </div>
+                   </div>
         <table>
             <tr>
                 <h3>Kielet mitä osaan puhua</h3>
@@ -55,12 +49,9 @@
                 <p>-Äidinkieli: Suomi</p>
             </tr>
             <tr>
-                <p>-Englanti</p>
+                <p>-Englanti hyvä.</p>
             </tr>
-            <tr>
-                <p>-Vähän ruotsia ymmärrän ja puhun</p>
-            </tr>
-        </table>
+                    </table>
 
         <!-- Sosiaalisen median linkit -->
         <div class="text-center mt-5">
