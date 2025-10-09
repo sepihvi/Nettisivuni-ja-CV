@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="fi">
 <head>
@@ -27,50 +26,7 @@
     <h3>puhelinnumero</h3>
     <p>+358 04578341340</p>
     <?php
-    // Tietokantayhteyden tiedot
-    $host = 'localhost';
-    $db = 'yhteydenotto';
-    $user = 'root';  
-    $pass = 'root';      
-
-    // Virheilmoitusmuuttuja
-    $error = "";
-
-    if ($_SERVER["REQUEST_METHOD"] === "POST") {
-        // Lomakkeen kenttien tiedot
-        $nimi = htmlspecialchars($_POST['nimi']);
-        $email = htmlspecialchars($_POST['email']);
-        $viesti = htmlspecialchars($_POST['viesti']);
-
-        // Tarkista, että kaikki kentät on täytetty
-        if (!empty($nimi) && !empty($email) && !empty($viesti)) {
-            try {
-                // Yhdistä tietokantaan
-                $pdo = new PDO("mysql:host=$host;dbname=$db;charset=utf8", $user, $pass);
-                $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-
-                // Tallenna tiedot tietokantaan
-                $sql = "INSERT INTO viestit (nimi, email, viesti) VALUES (?, ?, ?)";
-                $stmt = $pdo->prepare($sql);
-                $stmt->execute([$nimi, $email, $viesti]);
-
-                // Näytä onnistumisviesti
-                echo '<div class="alert alert-success">Kiitos viestistäsi! Otamme yhteyttä pian.</div>';
-            } catch (PDOException $e) {
-                $error = "Tietokantavirhe: " . $e->getMessage();
-            }
-        } else {
-            $error = "Kaikki kentät ovat pakollisia!";
-        }
-    }
-
-    // Näytä virheilmoitus, jos sellainen on
-    if (!empty($error)) {
-        echo '<div class="alert alert-danger">' . $error . '</div>';
-    }
-    ?>
-</div>
-
+   </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
